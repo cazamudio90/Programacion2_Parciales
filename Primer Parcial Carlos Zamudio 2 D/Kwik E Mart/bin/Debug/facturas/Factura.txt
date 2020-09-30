@@ -1,0 +1,8 @@
+Kwik E Mart
+Nombre  : Juan
+Apellido: Perez
+Dni     : 18356888
+Fecha   : 30/9/2020 20:31:13
+Productos                              Cantidad                              Precio
+Coca-Cola 1.5 lts                      2                                      20                                     
+                                   Unidades 2                                 Total 20

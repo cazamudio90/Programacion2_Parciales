@@ -1,0 +1,16 @@
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\bin\Debug\Kwik E Mart.exe.config
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\bin\Debug\Kwik E Mart.exe
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\bin\Debug\Kwik E Mart.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\bin\Debug\Entidades.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\bin\Debug\Entidades.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik_E_Mart.Menu_Principal.resources
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik_E_Mart.Properties.Resources.resources
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.csproj.GenerateResource.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.exe
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik E Mart.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik_E_Mart.FrmProductos.resources
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik_E_Mart.FrmCliente.resources
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Kwik E Mart\obj\Debug\Kwik_E_Mart.LogIn.resources
