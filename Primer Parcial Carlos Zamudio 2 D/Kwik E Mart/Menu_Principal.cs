@@ -313,6 +313,21 @@ namespace Kwik_E_Mart
             }
             this.dgvMostar.DataSource = listaPorUsuarios;
         }
+
+        private void mostrarStock10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            List<Producto> listaMenos10 = new List<Producto>();
+
+            foreach (Producto item in KwikEMart.ListaDeProductos)
+            {
+                if (item.CantidadDeUnidades <= 10)
+                {
+                    listaMenos10.Add(item);
+                }
+            }
+            this.dgvMostar.DataSource = listaMenos10;
+            this.dgvMostar.Show();
+        }
     }
 
 }
