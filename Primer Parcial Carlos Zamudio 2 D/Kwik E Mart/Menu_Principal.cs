@@ -314,18 +314,30 @@ namespace Kwik_E_Mart
             this.dgvMostar.DataSource = listaPorUsuarios;
         }
 
-        private void mostrarStock10ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void agregarToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            List<Producto> listaMenos10 = new List<Producto>();
+            FrmEmpleado frmEmpleado = new FrmEmpleado();
 
-            foreach (Producto item in KwikEMart.ListaDeProductos)
+            this.lblDataGrid.Hide();
+            this.dgvMostar.Hide();
+            this.dgvListaVentasProd.Hide();
+            this.btnDescargartxt.Hide();
+            this.lblUsuario.Hide();
+            this.cbUsuarios.Hide();
+
+            if (frmEmpleado.ShowDialog() == DialogResult.OK)
             {
-                if (item.CantidadDeUnidades <= 10)
+                if (KwikEMart.ListaEmleados + frmEmpleado.Empleado)
                 {
-                    listaMenos10.Add(item);
+                    MessageBox.Show("Se agrego empleado");
                 }
             }
-            this.dgvMostar.DataSource = listaMenos10;
+        }
+
+        private void mostrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.dgvMostar.DataSource = KwikEMart.ListaEmleados;
+
             this.dgvMostar.Show();
         }
     }

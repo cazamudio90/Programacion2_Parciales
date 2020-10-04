@@ -54,7 +54,9 @@
             this.btnDescargartxt = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.cbUsuarios = new System.Windows.Forms.ComboBox();
-            this.mostrarStock10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaVentasProd)).BeginInit();
@@ -65,7 +67,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productosToolStripMenuItem,
             this.clienteToolStripMenuItem,
-            this.ventasToolStripMenuItem});
+            this.ventasToolStripMenuItem,
+            this.empleadosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1187, 24);
@@ -90,11 +93,9 @@
             // 
             // modificarToolStripMenuItem
             // 
-            this.modificarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mostrarStock10ToolStripMenuItem});
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modificarToolStripMenuItem.Text = "Mostrar Stock";
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.modificarToolStripMenuItem.Text = "Mostrar";
             this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // clienteToolStripMenuItem
@@ -147,7 +148,7 @@
             // 
             this.dgvMostar.AllowUserToAddRows = false;
             this.dgvMostar.AllowUserToDeleteRows = false;
-            this.dgvMostar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvMostar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvMostar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dgvMostar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -198,7 +199,7 @@
             // dgvListaVentasProd
             // 
             this.dgvListaVentasProd.AllowUserToAddRows = false;
-            this.dgvListaVentasProd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvListaVentasProd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvListaVentasProd.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dgvListaVentasProd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -306,12 +307,28 @@
             this.cbUsuarios.TabIndex = 10;
             this.cbUsuarios.SelectedValueChanged += new System.EventHandler(this.cbUsuarios_SelectedValueChanged);
             // 
-            // mostrarStock10ToolStripMenuItem
+            // empleadosToolStripMenuItem
             // 
-            this.mostrarStock10ToolStripMenuItem.Name = "mostrarStock10ToolStripMenuItem";
-            this.mostrarStock10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.mostrarStock10ToolStripMenuItem.Text = "Mostrar Stock -10";
-            this.mostrarStock10ToolStripMenuItem.Click += new System.EventHandler(this.mostrarStock10ToolStripMenuItem_Click);
+            this.empleadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarToolStripMenuItem3,
+            this.mostrarToolStripMenuItem1});
+            this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.empleadosToolStripMenuItem.Text = "Empleados";
+            // 
+            // agregarToolStripMenuItem3
+            // 
+            this.agregarToolStripMenuItem3.Name = "agregarToolStripMenuItem3";
+            this.agregarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem3.Text = "Agregar";
+            this.agregarToolStripMenuItem3.Click += new System.EventHandler(this.agregarToolStripMenuItem3_Click);
+            // 
+            // mostrarToolStripMenuItem1
+            // 
+            this.mostrarToolStripMenuItem1.Name = "mostrarToolStripMenuItem1";
+            this.mostrarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mostrarToolStripMenuItem1.Text = "Mostrar";
+            this.mostrarToolStripMenuItem1.Click += new System.EventHandler(this.mostrarToolStripMenuItem1_Click);
             // 
             // Menu_Principal
             // 
@@ -365,7 +382,9 @@
         private System.Windows.Forms.Button btnDescargartxt;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.ComboBox cbUsuarios;
-        private System.Windows.Forms.ToolStripMenuItem mostrarStock10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem1;
     }
 }
 

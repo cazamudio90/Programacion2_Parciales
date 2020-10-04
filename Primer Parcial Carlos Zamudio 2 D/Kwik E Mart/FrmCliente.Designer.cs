@@ -223,7 +223,6 @@
             // 
             // dgvProductoVentas
             // 
-            this.dgvProductoVentas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvProductoVentas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dgvProductoVentas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -244,7 +243,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvProductoVentas.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvProductoVentas.EnableHeadersVisualStyles = false;
-            this.dgvProductoVentas.Location = new System.Drawing.Point(901, 28);
+            this.dgvProductoVentas.Location = new System.Drawing.Point(946, 28);
             this.dgvProductoVentas.Name = "dgvProductoVentas";
             this.dgvProductoVentas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -255,7 +254,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProductoVentas.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvProductoVentas.Size = new System.Drawing.Size(267, 333);
+            this.dgvProductoVentas.Size = new System.Drawing.Size(222, 333);
             this.dgvProductoVentas.TabIndex = 17;
             // 
             // FrmCliente

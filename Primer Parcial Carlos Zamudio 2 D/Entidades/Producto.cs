@@ -33,7 +33,6 @@ namespace Entidades
         public int CantidadDeUnidades
         {
             get { return cantidadDeUnidades; }
-            set { cantidadDeUnidades = value; }
         }
 
         public static bool operator +(List<Producto> p_producto_lista, Producto p_producto)
@@ -46,6 +45,15 @@ namespace Entidades
             return v_return;
         }
 
-        
+        public void BajarStock(List<Producto> p_lista_productos, Producto p_producto)
+        {
+            for (int i = 0; i < p_lista_productos.Count; i++)
+            {
+                if (p_lista_productos[i].NombreDeProducto == p_producto.NombreDeProducto)
+                {
+                    p_lista_productos[i].cantidadDeUnidades = p_lista_productos[i].cantidadDeUnidades - p_producto.CantidadDeUnidades;
+                }
+            }
+        }
     }
 }

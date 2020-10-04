@@ -132,8 +132,6 @@ namespace Kwik_E_Mart
                         {
                             if ( this.listaDeVentas + new Producto("abc", v_producto.NombreDeProducto, v_producto.Precio * v_cant, v_cant))
                             {
-                                KwikEMart.BajarStock(KwikEMart.ListaDeProductos, v_producto.NombreDeProducto, v_cant);
-                                
                                 MessageBox.Show("Se Agrego Un Producto");
                             }
                         }
