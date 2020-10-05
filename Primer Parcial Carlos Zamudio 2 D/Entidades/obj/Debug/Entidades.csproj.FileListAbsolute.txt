@@ -4,3 +4,9 @@ C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial 
 C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.dll
 C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Primer Parcial\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\bin\Debug\Entidades.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\bin\Debug\Entidades.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\Programacion2_Parciales\Primer Parcial Carlos Zamudio 2 D\Entidades\obj\Debug\Entidades.pdb

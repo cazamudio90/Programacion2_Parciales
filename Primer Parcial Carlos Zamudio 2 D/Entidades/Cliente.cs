@@ -23,5 +23,18 @@ namespace Entidades
 
             return v_return;
         }
+
+        public override string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine("Se agrego el Cliente:");
+            sb.AppendFormat("Nombre: {0}\r\n", this.nombre);
+            sb.AppendFormat("Apellido : {0}\r\n", this.apellido);
+            sb.AppendFormat("DNI : {0}\r\n", this.dni.ToString());
+            sb.AppendLine("Desea Agregar Otro");
+
+            return sb.ToString();
+        }
     }
 }

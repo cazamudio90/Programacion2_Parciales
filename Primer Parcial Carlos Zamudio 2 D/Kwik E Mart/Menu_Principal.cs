@@ -169,7 +169,7 @@ namespace Kwik_E_Mart
             {
                 if (KwikEMart.ListaDeClientes + frmCliente.Cliente)
                 {
-                    if(MessageBox.Show("Se agrego el Cliente, Desea Agregar mas", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    if(MessageBox.Show(frmCliente.Cliente.Mostrar(), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         agregarToolStripMenuItem1_Click(sender, e);
                     } 
@@ -329,7 +329,7 @@ namespace Kwik_E_Mart
             {
                 if (KwikEMart.ListaEmleados + frmEmpleado.Empleado)
                 {
-                    MessageBox.Show("Se agrego empleado");
+                    MessageBox.Show(frmEmpleado.Empleado.Mostrar());
                 }
             }
         }

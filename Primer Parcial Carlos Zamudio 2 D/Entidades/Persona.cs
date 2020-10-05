@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Persona
+    public abstract class Persona
     {
         protected string nombre;
         protected string apellido;
@@ -36,5 +36,8 @@ namespace Entidades
             this.apellido = p_apellido;
             this.dni = p_dni;
         }
+
+        public abstract string Mostrar();
+
     }
 }
