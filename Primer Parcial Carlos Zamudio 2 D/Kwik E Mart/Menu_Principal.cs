@@ -337,7 +337,7 @@ namespace Kwik_E_Mart
         private void mostrarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.dgvMostar.DataSource = KwikEMart.ListaEmleados;
-
+            this.lblDataGrid.Text = "Lista de Empleados";
             this.dgvMostar.Show();
         }
     }
