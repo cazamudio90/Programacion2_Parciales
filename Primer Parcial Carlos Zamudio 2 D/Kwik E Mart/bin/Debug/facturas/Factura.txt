@@ -1,8 +1,11 @@
 Kwik E Mart
-Nombre  : Juan
-Apellido: Perez
+Nombre  : Roman
+Apellido: Martinez
 Dni     : 18356888
-Fecha   : 30/9/2020 20:31:13
+Fecha   : 6/10/2020 18:51:48
 Productos                              Cantidad                              Precio
-Coca-Cola 1.5 lts                      2                                      20                                     
-                                   Unidades 2                                 Total 20
+Cafe Dolca                             2                                      20                                     
+Alfajor Jorgito negro                  3                                      30                                     
+Alfajor Jorgito blanco                 4                                      40                                     
+Alfajor Jorgelin blanco                5                                      50                                     
+                                   Unidades 14                                 Total 140
